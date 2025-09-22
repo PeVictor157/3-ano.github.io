@@ -1,0 +1,57 @@
+/* Remova o conteúdo antigo e coloque seu CSS principal aqui */
+
+/* Exemplo de início do CSS */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #b30000;
+  color: #fff;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Adicione aqui o restante do seu CSS copiado do <style> do HTML */
+
+/* Bandeirinhas no topo */
+.bandeirinhas {
+  width: 100vw;
+  height: 60px;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  pointer-events: none;
+}
+.bandeirinhas span {
+  font-size: 2.2rem;
+  margin: 0 2px;
+  user-select: none;
+}
+
+/* Máscaras teatrais decorativas */
+.mascara-esq, .mascara-dir {
+  position: fixed;
+  top: 80px;
+  font-size: 4rem;
+  z-index: 10;
+  opacity: 0.7;
+  pointer-events: none;
+  text-shadow: 2px 2px 8px #000;
+}
+.mascara-esq {
+  left: 10px;
+  transform: rotate(-15deg);
+}
+.mascara-dir {
+  right: 10px;
+  transform: rotate(15deg);
+}
+
+/* Continue com o restante do seu CSS... */
